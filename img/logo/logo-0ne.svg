@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 550" width="100%" height="100%">
+  <!-- Background is transparent -->
+  
+  <!-- Shelves -->
+  <g fill="#ffffff">
+    <rect x="180" y="90" width="240" height="8" rx="2"/>
+    <rect x="180" y="160" width="240" height="8" rx="2"/>
+    <rect x="180" y="230" width="240" height="8" rx="2"/>
+    
+    <!-- Items on Shelves -->
+    <!-- Top shelf items -->
+    <rect x="190" y="65" width="30" height="25" rx="3"/>
+    <path d="M 280 90 L 290 60 L 300 90 Z"/>
+    <rect x="350" y="50" width="40" height="40" rx="5"/>
+    
+    <!-- Middle shelf items -->
+    <rect x="250" y="130" width="12" height="30"/>
+    <rect x="265" y="125" width="15" height="35"/>
+    <rect x="400" y="135" width="15" height="25" rx="5"/>
+    
+    <!-- Bottom shelf items -->
+    <rect x="200" y="200" width="15" height="30"/>
+    <rect x="218" y="195" width="18" height="35"/>
+    <rect x="280" y="195" width="15" height="35"/>
+    <rect x="298" y="200" width="15" height="30"/>
+    <circle cx="380" cy="210" r="12"/>
+  </g>
+
+  <!-- Potted Plant Left -->
+  <path d="M 130 540 L 140 500 L 160 500 L 170 540 Z" fill="#2b3b4e"/>
+  <path d="M 150 500 C 130 470, 130 440, 150 420 C 170 440, 170 470, 150 500 Z" fill="#008eff"/>
+
+  <!-- Desk Structure -->
+  <!-- Desk Top -->
+  <rect x="120" y="380" width="280" height="12" fill="#ffffff"/>
+  <!-- Left Desk Leg -->
+  <rect x="156" y="392" width="12" height="130" fill="#ffffff"/>
+  
+  <!-- Drawer Unit (Right) -->
+  <rect x="320" y="392" width="80" height="130" fill="#2b3b4e" stroke="#ffffff" stroke-width="4"/>
+  <rect x="335" y="410" width="50" height="18" rx="3" fill="#ffffff"/>
+  <rect x="335" y="440" width="50" height="18" rx="3" fill="#ffffff"/>
+  <rect x="335" y="470" width="50" height="18" rx="3" fill="#ffffff"/>
+  <rect x="335" y="500" width="50" height="18" rx="3" fill="#ffffff"/>
+
+  <!-- Computer Monitor -->
+  <rect x="210" y="260" width="100" height="75" rx="5" fill="#2b3b4e" stroke="#ffffff" stroke-width="4"/>
+  <rect x="216" y="266" width="88" height="63" fill="#ffffff"/>
+  <!-- Screen Content (Lines) -->
+  <circle cx="225" cy="280" r="4" fill="#008eff"/>
+  <rect x="238" y="277" width="40" height="6" rx="2" fill="#008eff"/>
+  <rect x="225" y="295" width="55" height="4" rx="2" fill="#2b3b4e"/>
+  <rect x="225" y="305" width="35" height="4" rx="2" fill="#2b3b4e"/>
+  <!-- Sticky Note -->
+  <rect x="285" y="266" width="15" height="18" fill="#008eff"/>
+  <!-- Monitor Stand -->
+  <path d="M 250 335 L 270 335 L 275 370 L 245 370 Z" fill="#ffffff"/>
+  <rect x="235" y="370" width="50" height="6" rx="3" fill="#ffffff"/>
+
+  <!-- Tablet / Small Device -->
+  <rect x="350" y="345" width="35" height="50" rx="4" fill="#ffffff"/>
+  <circle cx="367" cy="353" r="3" fill="#2b3b4e"/>
+  <line x1="357" y1="365" x2="377" y2="365" stroke="#2b3b4e" stroke-width="3" stroke-linecap="round"/>
+  <line x1="357" y1="375" x2="377" y2="375" stroke="#2b3b4e" stroke-width="3" stroke-linecap="round"/>
+  <line x1="357" y1="385" x2="370" y2="385" stroke="#2b3b4e" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Character (Person Sitting) -->
+  <!-- Body/Torso -->
+  <path d="M 190 500 C 190 460, 200 430, 215 395 L 245 395 C 255 430, 260 460, 260 500 Z" fill="#3f4756"/>
+  
+  <!-- Head & Hair (Shifted down & given space) -->
+  <circle cx="215" cy="375" r="18" fill="#fbd1b7"/>
+  <!-- Bun on Head -->
+  <circle cx="202" cy="362" r="10" fill="#2b3b4e"/>
+  <path d="M 195 375 C 205 365, 220 365, 225 378 Z" fill="#2b3b4e"/>
+
+  <!-- Chair -->
+  <path d="M 170 530 L 195 450 L 245 450 L 255 530 Z" fill="#008eff"/>
+  <ellipse cx="212" cy="455" rx="38" ry="12" fill="#008eff"/>
+  <!-- Chair Legs -->
+  <line x1="185" y1="460" x2="170" y2="550" stroke="#1c2530" stroke-width="4" stroke-linecap="round"/>
+  <line x1="230" y1="460" x2="245" y2="550" stroke="#1c2530" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Potted Plant Right -->
+  <g transform="translate(420, 440)">
+    <rect x="0" y="60" width="35" height="40" fill="#2b3b4e"/>
+    <!-- Blue Leaves -->
+    <path d="M 17 60 C -10 30, -10 -10, 17 -30 C 44 -10, 44 30, 17 60 Z" fill="#008eff"/>
+    <path d="M 5 60 C -20 30, -20 0, 5 -20 C 15 -10, 20 20, 5 60 Z" fill="#008eff" opacity="0.8"/>
+    <path d="M 28 60 C 50 30, 50 0, 28 -20 C 18 -10, 15 20, 28 60 Z" fill="#ffffff"/>
+  </g>
+</svg>

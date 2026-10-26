@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Nab bar section strat */
+header{
+   padding: 40px 60px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 0 0 72px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #2b3a4a;
+}
+
+/* Nab bar section End */
+
+/* Banner section star */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Nab bar section strat */
+header{
+   padding: 40px 60px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 0 0 72px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #2b3a4a;
+}
+
+/* Nab bar section End */
+
+/* Banner section star */
+
+.banner{
+    text-align: center;
+}
+.banner h1{
+    font-size: 80px;
+    color: #2b3a4a;
+    margin: 50px 0 0 0;
+}
+.banner h1 span {
+    color: #007acc;
+}
+.banner p {
+    color: #2b3a4a;
+    font-size: 18px;
+}
+.banner img {
+    width: 50%;
+    margin: 60px 0 0 0;
+}
+
+
+/* Banner section End */
+
+
+/* Banner section End */
